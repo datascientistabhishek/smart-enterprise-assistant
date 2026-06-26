@@ -1,0 +1,26 @@
+.env
+.DS_Store
+
+# Python virtual environments
+venv/
+.venv/
+myenv/
+streamlit-venv/
+
+# Python cache and test artifacts
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated database files
+data/*.db
+data/*.db-journal
+
+# Local editor / notebook state
+.ipynb_checkpoints/
+
+# Video prep notes
+CODE_EXPLANATION_SCRIPT.md
+VIDEO_CODE_SNIPPETS.md
